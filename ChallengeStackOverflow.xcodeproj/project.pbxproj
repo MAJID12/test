@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C353C6158B1537109C9516A6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3B7CCF4395CF621DEE3139 /* libPods.a */; };
 		E9680A351C81B27200BFFEAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9680A341C81B27200BFFEAC /* main.m */; };
 		E9680A381C81B27200BFFEAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9680A371C81B27200BFFEAC /* AppDelegate.m */; };
 		E9680A3B1C81B27200BFFEAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9680A3A1C81B27200BFFEAC /* ViewController.m */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5BFD90DCCDE3166DEB1EB09F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CF3B7CCF4395CF621DEE3139 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22DE4996B4AF065061EACC0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E9680A301C81B27200BFFEAC /* ChallengeStackOverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeStackOverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9680A341C81B27200BFFEAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9680A361C81B27200BFFEAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C353C6158B1537109C9516A6 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FAC504FBD1ECC9CDD55049C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E22DE4996B4AF065061EACC0 /* Pods.debug.xcconfig */,
+				5BFD90DCCDE3166DEB1EB09F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E9680A271C81B27200BFFEAC = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +99,8 @@
 				E9680A4C1C81B27300BFFEAC /* ChallengeStackOverflowTests */,
 				E9680A571C81B27300BFFEAC /* ChallengeStackOverflowUITests */,
 				E9680A311C81B27200BFFEAC /* Products */,
+				4FAC504FBD1ECC9CDD55049C /* Pods */,
+				FC1884D62E9EE65555B7D92A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +156,14 @@
 			path = ChallengeStackOverflowUITests;
 			sourceTree = "<group>";
 		};
+		FC1884D62E9EE65555B7D92A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF3B7CCF4395CF621DEE3139 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9680A5D1C81B27300BFFEAC /* Build configuration list for PBXNativeTarget "ChallengeStackOverflow" */;
 			buildPhases = (
+				70BF966B7717CCA85FCCB339 /* Check Pods Manifest.lock */,
 				E9680A2C1C81B27200BFFEAC /* Sources */,
 				E9680A2D1C81B27200BFFEAC /* Frameworks */,
 				E9680A2E1C81B27200BFFEAC /* Resources */,
+				17D169C245FC2D431EF5ED56 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +290,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17D169C245FC2D431EF5ED56 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70BF966B7717CCA85FCCB339 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E9680A2C1C81B27200BFFEAC /* Sources */ = {
@@ -411,6 +470,7 @@
 		};
 		E9680A5E1C81B27300BFFEAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22DE4996B4AF065061EACC0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChallengeStackOverflow/Info.plist;
@@ -422,6 +482,7 @@
 		};
 		E9680A5F1C81B27300BFFEAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BFD90DCCDE3166DEB1EB09F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChallengeStackOverflow/Info.plist;
@@ -498,6 +559,7 @@
 				E9680A5F1C81B27300BFFEAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9680A601C81B27300BFFEAC /* Build configuration list for PBXNativeTarget "ChallengeStackOverflowTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +568,7 @@
 				E9680A621C81B27300BFFEAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9680A631C81B27300BFFEAC /* Build configuration list for PBXNativeTarget "ChallengeStackOverflowUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +577,7 @@
 				E9680A651C81B27300BFFEAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
