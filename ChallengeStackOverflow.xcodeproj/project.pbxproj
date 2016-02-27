@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9680A351C81B27200BFFEAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9680A341C81B27200BFFEAC /* main.m */; };
+		E9680A381C81B27200BFFEAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9680A371C81B27200BFFEAC /* AppDelegate.m */; };
+		E9680A3B1C81B27200BFFEAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9680A3A1C81B27200BFFEAC /* ViewController.m */; };
+		E9680A3E1C81B27300BFFEAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9680A3C1C81B27300BFFEAC /* Main.storyboard */; };
+		E9680A401C81B27300BFFEAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9680A3F1C81B27300BFFEAC /* Assets.xcassets */; };
+		E9680A431C81B27300BFFEAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9680A411C81B27300BFFEAC /* LaunchScreen.storyboard */; };
+		E9680A4E1C81B27300BFFEAC /* ChallengeStackOverflowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9680A4D1C81B27300BFFEAC /* ChallengeStackOverflowTests.m */; };
+		E9680A591C81B27300BFFEAC /* ChallengeStackOverflowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9680A581C81B27300BFFEAC /* ChallengeStackOverflowUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9680A4A1C81B27300BFFEAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9680A281C81B27200BFFEAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9680A2F1C81B27200BFFEAC;
+			remoteInfo = ChallengeStackOverflow;
+		};
+		E9680A551C81B27300BFFEAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9680A281C81B27200BFFEAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9680A2F1C81B27200BFFEAC;
+			remoteInfo = ChallengeStackOverflow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9680A301C81B27200BFFEAC /* ChallengeStackOverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeStackOverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9680A341C81B27200BFFEAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9680A361C81B27200BFFEAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9680A371C81B27200BFFEAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9680A391C81B27200BFFEAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E9680A3A1C81B27200BFFEAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E9680A3D1C81B27300BFFEAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9680A3F1C81B27300BFFEAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9680A421C81B27300BFFEAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9680A441C81B27300BFFEAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9680A491C81B27300BFFEAC /* ChallengeStackOverflowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeStackOverflowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9680A4D1C81B27300BFFEAC /* ChallengeStackOverflowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChallengeStackOverflowTests.m; sourceTree = "<group>"; };
+		E9680A4F1C81B27300BFFEAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9680A541C81B27300BFFEAC /* ChallengeStackOverflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeStackOverflowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9680A581C81B27300BFFEAC /* ChallengeStackOverflowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChallengeStackOverflowUITests.m; sourceTree = "<group>"; };
+		E9680A5A1C81B27300BFFEAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9680A2D1C81B27200BFFEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9680A461C81B27300BFFEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9680A511C81B27300BFFEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9680A271C81B27200BFFEAC = {
+			isa = PBXGroup;
+			children = (
+				E9680A321C81B27200BFFEAC /* ChallengeStackOverflow */,
+				E9680A4C1C81B27300BFFEAC /* ChallengeStackOverflowTests */,
+				E9680A571C81B27300BFFEAC /* ChallengeStackOverflowUITests */,
+				E9680A311C81B27200BFFEAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9680A311C81B27200BFFEAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9680A301C81B27200BFFEAC /* ChallengeStackOverflow.app */,
+				E9680A491C81B27300BFFEAC /* ChallengeStackOverflowTests.xctest */,
+				E9680A541C81B27300BFFEAC /* ChallengeStackOverflowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9680A321C81B27200BFFEAC /* ChallengeStackOverflow */ = {
+			isa = PBXGroup;
+			children = (
+				E9680A361C81B27200BFFEAC /* AppDelegate.h */,
+				E9680A371C81B27200BFFEAC /* AppDelegate.m */,
+				E9680A391C81B27200BFFEAC /* ViewController.h */,
+				E9680A3A1C81B27200BFFEAC /* ViewController.m */,
+				E9680A3C1C81B27300BFFEAC /* Main.storyboard */,
+				E9680A3F1C81B27300BFFEAC /* Assets.xcassets */,
+				E9680A411C81B27300BFFEAC /* LaunchScreen.storyboard */,
+				E9680A441C81B27300BFFEAC /* Info.plist */,
+				E9680A331C81B27200BFFEAC /* Supporting Files */,
+			);
+			path = ChallengeStackOverflow;
+			sourceTree = "<group>";
+		};
+		E9680A331C81B27200BFFEAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9680A341C81B27200BFFEAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9680A4C1C81B27300BFFEAC /* ChallengeStackOverflowTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9680A4D1C81B27300BFFEAC /* ChallengeStackOverflowTests.m */,
+				E9680A4F1C81B27300BFFEAC /* Info.plist */,
+			);
+			path = ChallengeStackOverflowTests;
+			sourceTree = "<group>";
+		};
+		E9680A571C81B27300BFFEAC /* ChallengeStackOverflowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9680A581C81B27300BFFEAC /* ChallengeStackOverflowUITests.m */,
+				E9680A5A1C81B27300BFFEAC /* Info.plist */,
+			);
+			path = ChallengeStackOverflowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9680A2F1C81B27200BFFEAC /* ChallengeStackOverflow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9680A5D1C81B27300BFFEAC /* Build configuration list for PBXNativeTarget "ChallengeStackOverflow" */;
+			buildPhases = (
+				E9680A2C1C81B27200BFFEAC /* Sources */,
+				E9680A2D1C81B27200BFFEAC /* Frameworks */,
+				E9680A2E1C81B27200BFFEAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChallengeStackOverflow;
+			productName = ChallengeStackOverflow;
+			productReference = E9680A301C81B27200BFFEAC /* ChallengeStackOverflow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9680A481C81B27300BFFEAC /* ChallengeStackOverflowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9680A601C81B27300BFFEAC /* Build configuration list for PBXNativeTarget "ChallengeStackOverflowTests" */;
+			buildPhases = (
+				E9680A451C81B27300BFFEAC /* Sources */,
+				E9680A461C81B27300BFFEAC /* Frameworks */,
+				E9680A471C81B27300BFFEAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9680A4B1C81B27300BFFEAC /* PBXTargetDependency */,
+			);
+			name = ChallengeStackOverflowTests;
+			productName = ChallengeStackOverflowTests;
+			productReference = E9680A491C81B27300BFFEAC /* ChallengeStackOverflowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9680A531C81B27300BFFEAC /* ChallengeStackOverflowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9680A631C81B27300BFFEAC /* Build configuration list for PBXNativeTarget "ChallengeStackOverflowUITests" */;
+			buildPhases = (
+				E9680A501C81B27300BFFEAC /* Sources */,
+				E9680A511C81B27300BFFEAC /* Frameworks */,
+				E9680A521C81B27300BFFEAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9680A561C81B27300BFFEAC /* PBXTargetDependency */,
+			);
+			name = ChallengeStackOverflowUITests;
+			productName = ChallengeStackOverflowUITests;
+			productReference = E9680A541C81B27300BFFEAC /* ChallengeStackOverflowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9680A281C81B27200BFFEAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "CHAIBI ";
+				TargetAttributes = {
+					E9680A2F1C81B27200BFFEAC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					E9680A481C81B27300BFFEAC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = E9680A2F1C81B27200BFFEAC;
+					};
+					E9680A531C81B27300BFFEAC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = E9680A2F1C81B27200BFFEAC;
+					};
+				};
+			};
+			buildConfigurationList = E9680A2B1C81B27200BFFEAC /* Build configuration list for PBXProject "ChallengeStackOverflow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9680A271C81B27200BFFEAC;
+			productRefGroup = E9680A311C81B27200BFFEAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9680A2F1C81B27200BFFEAC /* ChallengeStackOverflow */,
+				E9680A481C81B27300BFFEAC /* ChallengeStackOverflowTests */,
+				E9680A531C81B27300BFFEAC /* ChallengeStackOverflowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9680A2E1C81B27200BFFEAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9680A431C81B27300BFFEAC /* LaunchScreen.storyboard in Resources */,
+				E9680A401C81B27300BFFEAC /* Assets.xcassets in Resources */,
+				E9680A3E1C81B27300BFFEAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9680A471C81B27300BFFEAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9680A521C81B27300BFFEAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9680A2C1C81B27200BFFEAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9680A3B1C81B27200BFFEAC /* ViewController.m in Sources */,
+				E9680A381C81B27200BFFEAC /* AppDelegate.m in Sources */,
+				E9680A351C81B27200BFFEAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9680A451C81B27300BFFEAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9680A4E1C81B27300BFFEAC /* ChallengeStackOverflowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9680A501C81B27300BFFEAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9680A591C81B27300BFFEAC /* ChallengeStackOverflowUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9680A4B1C81B27300BFFEAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9680A2F1C81B27200BFFEAC /* ChallengeStackOverflow */;
+			targetProxy = E9680A4A1C81B27300BFFEAC /* PBXContainerItemProxy */;
+		};
+		E9680A561C81B27300BFFEAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9680A2F1C81B27200BFFEAC /* ChallengeStackOverflow */;
+			targetProxy = E9680A551C81B27300BFFEAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9680A3C1C81B27300BFFEAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9680A3D1C81B27300BFFEAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9680A411C81B27300BFFEAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9680A421C81B27300BFFEAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9680A5B1C81B27300BFFEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9680A5C1C81B27300BFFEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9680A5E1C81B27300BFFEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChallengeStackOverflow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaibi.ChallengeStackOverflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9680A5F1C81B27300BFFEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChallengeStackOverflow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaibi.ChallengeStackOverflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E9680A611C81B27300BFFEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChallengeStackOverflowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaibi.ChallengeStackOverflowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChallengeStackOverflow.app/ChallengeStackOverflow";
+			};
+			name = Debug;
+		};
+		E9680A621C81B27300BFFEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChallengeStackOverflowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaibi.ChallengeStackOverflowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChallengeStackOverflow.app/ChallengeStackOverflow";
+			};
+			name = Release;
+		};
+		E9680A641C81B27300BFFEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChallengeStackOverflowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaibi.ChallengeStackOverflowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChallengeStackOverflow;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E9680A651C81B27300BFFEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChallengeStackOverflowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaibi.ChallengeStackOverflowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChallengeStackOverflow;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9680A2B1C81B27200BFFEAC /* Build configuration list for PBXProject "ChallengeStackOverflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9680A5B1C81B27300BFFEAC /* Debug */,
+				E9680A5C1C81B27300BFFEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9680A5D1C81B27300BFFEAC /* Build configuration list for PBXNativeTarget "ChallengeStackOverflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9680A5E1C81B27300BFFEAC /* Debug */,
+				E9680A5F1C81B27300BFFEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9680A601C81B27300BFFEAC /* Build configuration list for PBXNativeTarget "ChallengeStackOverflowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9680A611C81B27300BFFEAC /* Debug */,
+				E9680A621C81B27300BFFEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9680A631C81B27300BFFEAC /* Build configuration list for PBXNativeTarget "ChallengeStackOverflowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9680A641C81B27300BFFEAC /* Debug */,
+				E9680A651C81B27300BFFEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9680A281C81B27200BFFEAC /* Project object */;
+}
