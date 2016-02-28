@@ -192,6 +192,7 @@
 		E9680A321C81B27200BFFEAC /* ChallengeStackOverflow */ = {
 			isa = PBXGroup;
 			children = (
+				E9F9CDD31C83795500278217 /* Helpers */,
 				E90AB4EC1C8369AD001C9685 /* Views */,
 				E90AB4DE1C831A55001C9685 /* Models */,
 				E9F7E8981C8263BF00B690CE /* Service */,
@@ -247,6 +248,13 @@
 				E9F7E89F1C82666800B690CE /* CSService+FirstPageData.m */,
 			);
 			name = Service;
+			sourceTree = "<group>";
+		};
+		E9F9CDD31C83795500278217 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 		FC1884D62E9EE65555B7D92A /* Frameworks */ = {

@@ -27,13 +27,18 @@ PODS:
   - OHHTTPStubs/NSURLSession (4.7.1):
     - OHHTTPStubs/Core
   - OHHTTPStubs/OHPathHelpers (4.7.1)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
   - OHHTTPStubs
+  - SDWebImage (~> 3.7)
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
   OHHTTPStubs: f7d1604d04d37d055460c0ef9af01bb249ded0fa
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
 
 COCOAPODS: 0.38.2

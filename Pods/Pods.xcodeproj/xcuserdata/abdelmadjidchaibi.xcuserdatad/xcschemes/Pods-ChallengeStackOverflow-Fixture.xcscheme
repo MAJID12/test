@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3961529A292CE53A057B3525"
+               BlueprintIdentifier = "FE555A8E410350C4D0494E68"
                BuildableName = "libPods-ChallengeStackOverflow-Fixture.a"
                BlueprintName = "Pods-ChallengeStackOverflow-Fixture"
                ReferencedContainer = "container:Pods.xcodeproj">
