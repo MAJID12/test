@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ChallengeStackOverflow-Fixture.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>ChallengeStackOverflow.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>E9680A531C81B27300BFFEAC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E9F7E83D1C82180000B690CE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

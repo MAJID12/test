@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>OHHTTPStubs.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ChallengeStackOverflow-Fixture.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,7 +27,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>DD607B203A961FD4152B69FE1CF802CC</key>
+		<key>56E058452BEA4A578EC9F25B39358BFC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9B31BA18407C8B555FA662B99CFCE9AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AB76A854A5A2CCA17430BD2E3CDD7D76</key>
 		<dict>
 			<key>primary</key>
 			<true/>

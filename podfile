@@ -9,3 +9,8 @@ inhibit_all_warnings!
 
 ## Internal Pods ##
 
+
+target 'ChallengeStackOverflow-Fixture' do
+    pod 'OHHTTPStubs'
+end
+
